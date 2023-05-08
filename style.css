@@ -1,0 +1,289 @@
+/* Geral */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  #features,
+  #works,
+  #contact,
+  footer {
+    padding: 60px 0;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #1d1f20;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-left: 30px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: color .3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff5e5e;
+  }
+  
+  .hero {
+    max-width: 800px;
+    min-height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  .hero p {
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: #ff5e5e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    transition: background-color .3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #d34a4a;
+  }
+  
+  /* Recursos */
+  #features {
+    background-color: #f2f2f2;
+  }
+  
+  #features h2 {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  #features ul {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+  }
+  
+  #features li {
+    max-width: 400px;
+   
+ }
+/* Trabalhos */
+#works {
+    background-color: #fff;
+    
+}
+#works li {
+    margin: 10px; /* adiciona um espaçamento de 10 pixels entre as imagens */
+  }
+  #works ul{
+    display: flex; /* exibe os itens em uma linha flexível */
+  flex-wrap: wrap; /* permite que os itens sejam quebrados para a linha abaixo se necessário */
+  justify-content: center; /* centraliza os itens horizontalmente */
+  }
+  #works img {
+    max-width: 100%; /* define a largura máxima das imagens para que se ajustem ao tamanho da seção */
+  }
+    
+    #works h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    }
+    
+    #works .work {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .work .image {
+    max-width: 400px;
+    margin-right: 60px;
+    }
+    
+    .work .image img {
+    border-radius: 10px;
+    }
+    
+    .work .description {
+    flex: 1;
+    }
+    
+    .work h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    }
+    
+    .work p {
+    margin-bottom: 30px;
+    }
+    
+    /* Contato */
+    #contact {
+    background-color: #f2f2f2;
+    }
+    
+    #contact h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    }
+    
+    form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    form label {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    }
+    
+    form input,
+    form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    }
+    
+    form input:focus,
+    form textarea:focus {
+    outline: none;
+    border-color: #ff5e5e;
+    }
+    
+    form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 16px 32px;
+    background-color: #ff5e5e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    transition: background-color .3s ease;
+    }
+    
+    form button[type="submit"]:hover {
+    background-color: #d34a4a;
+    }
+    
+    /* Rodapé */
+    footer {
+    background-color: #1d1f20;
+    color: #fff;
+    }
+    
+    footer .logo img {
+    max-width: 200px;
+    margin-bottom: 30px;
+    }
+    
+    footer p {
+    margin-bottom: 30px;
+    }
+    
+    footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    footer ul li {
+    margin: 0 15px;
+    }
+    
+    footer ul li:first-child {
+    margin-left: 0;
+    }
+    
+    footer ul li a {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: color .3s ease;
+    }
+    
+    footer ul li a:hover {
+    color: #ff5e5e;
+    }  
+
+
+      
